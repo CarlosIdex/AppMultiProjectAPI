@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Entities.Entities
 {
-    public class ClientConfiguration
+    public class ClientConfig
     {
         public string BaseUrl { get; set; }
         public string PrimaryColor { get; set; }
         public string SecondaryColor { get; set; }
-
+        public string LogoUrl { get; set; }
     }
 }
